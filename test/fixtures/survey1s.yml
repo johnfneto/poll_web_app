@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  answer: MyString
+  time: 2012-11-23 11:03:47
+
+two:
+  answer: MyString
+  time: 2012-11-23 11:03:47
