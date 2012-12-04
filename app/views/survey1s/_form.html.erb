@@ -12,12 +12,32 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :answer %><br />
-    <%= f.text_field :answer %>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :question %><br />
+    <%= f.text_field :question %>
   </div>
   <div class="field">
     <%= f.label :time %><br />
     <%= f.datetime_select :time %>
+  </div>
+  <div class="field">
+    <%= f.label :option1 %><br />
+    <%= f.text_field :option1 %>
+  </div>
+  <div class="field">
+    <%= f.label :option2 %><br />
+    <%= f.text_field :option2 %>
+  </div>
+  <div class="field">
+    <%= f.label :pic1 %><br />
+    <%= f.text_field :pic1 %>
+  </div>
+  <div class="field">
+    <%= f.label :pic2 %><br />
+    <%= f.text_field :pic2 %>
   </div>
   <div class="actions">
     <%= f.submit %>

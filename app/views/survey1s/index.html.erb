@@ -2,8 +2,13 @@
 
 <table>
   <tr>
-    <th>Answer</th>
+    <th>Title</th>
+    <th>Question</th>
     <th>Time</th>
+    <th>Option1</th>
+    <th>Option2</th>
+    <th>Pic1</th>
+    <th>Pic2</th>
     <th></th>
     <th></th>
     <th></th>
@@ -11,8 +16,13 @@
 
 <% @survey1s.each do |survey1| %>
   <tr>
-    <td><%= survey1.answer %></td>
+    <td><%= survey1.title %></td>
+    <td><%= survey1.question %></td>
     <td><%= survey1.time %></td>
+    <td><%= survey1.option1 %></td>
+    <td><%= survey1.option2 %></td>
+    <td><%= survey1.pic1 %></td>
+    <td><%= survey1.pic2 %></td>
     <td><%= link_to 'Show', survey1 %></td>
     <td><%= link_to 'Edit', edit_survey1_path(survey1) %></td>
     <td><%= link_to 'Destroy', survey1, method: :delete, data: { confirm: 'Are you sure?' } %></td>
